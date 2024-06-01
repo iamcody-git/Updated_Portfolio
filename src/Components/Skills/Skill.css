@@ -1,0 +1,35 @@
+/* Skills CSS */
+section#skills {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .skill {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .skill h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-level {
+    background-color: #1f1d1c;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-progress {
+    height: 100%;
+    background-color: #eb9b08;
+  }
+  

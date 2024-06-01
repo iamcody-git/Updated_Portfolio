@@ -1,0 +1,37 @@
+.footer {
+    margin-top: 28px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+  
+.foot{
+  display: flex;
+  align-items: center;
+}
+
+.footer-content{
+  justify-self: center;
+  align-items: center;
+}
+
+.social img{
+  width: 20px;
+  padding: 0 10px 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.link{
+  margin-left: 70px;
+}
+
+.social img:hover{
+  transform: scale(1.2);
+}
