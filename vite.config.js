@@ -3,7 +3,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "/codyportfolio/",
+  // base: "/codyportfolio/",
+  base: "https://updated-portfolio-six-eta.vercel.app/",
   plugins: [react()],
   build: {
     outDir: 'dist',
